@@ -12,19 +12,15 @@ $('#derecha').on("swiperight",function(){
 	switch(opt)
 	{
 		case 1:
-		$('#beep').tap(function(){
-	navigator. notification.beep (1)
-        });//tap beep
+	navigator. notification.beep (1);
 		break;
 		
 		case 2:
-		$('#vibrar').tap(function(){
 	      navigator .notification.vibrate (1000);
-          });//tap vibrar
 		break;
 	}
 	},"Aplicacion8","Beep,Vibrar,Cancelar");
 	
 });
- },false);//deviceready
-});//ready
+ },false);
+});
